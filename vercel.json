@@ -1,3 +1,3 @@
 {
-  "buildCommand": "git submodule update --init --recursive && npm run build"
+  "buildCommand": "git config --file .gitmodules submodule.src/content.url https://${GIT_TOKEN}@github.com/Snarl3908/fuwari_pvt_content.git && git submodule update --init --recursive && npm run build"
 }

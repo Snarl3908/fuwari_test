@@ -1,0 +1,3 @@
+[submodule "src/content"]
+	path = src/content
+	url = https://github.com/Snarl3908/fuwari_pvt_content
